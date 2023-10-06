@@ -20,7 +20,7 @@
         - get old report: 是否帶入舊報告
     - **alt + printscreen**: load 舊片 
     - **ctrl + printscreen**: load 舊片+報告
-
+    - **ctrl + D**: 上傳選定的series的lebal, annotation (本來ctrl+x的動作自動化)
 # [note]
 - crendentials.txt要跟autoload-gui-auth.exe放在一起
 - 目前只能跑在64bit系統
@@ -29,8 +29,9 @@
   
   
 # [changelog]
-## Version 20230813
- - first version
-## version 20231004
+### version 20231004
  - fix auth importing issue
  - add icon tooltip showing current version
+ - 新增ctrl +D 上傳label
+### Version 20230813
+ - first version
