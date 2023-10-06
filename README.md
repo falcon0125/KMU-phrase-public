@@ -1,5 +1,7 @@
-version 20231004
 
+# [download]
+ 最新版本 v20231004
+ [下載](https://github.com/falcon0125/KMU-phrase-public/archive/refs/heads/main.zip)
 # [install]
 1. 第一次使用要先安裝 msodbcsql.msi
     - sqlodbc.exe需要這個dependency 
@@ -23,9 +25,9 @@ version 20231004
 - crendentials.txt要跟autoload-gui-auth.exe放在一起
 - 目前只能跑在64bit系統
 
-
-
---------
+  
+  
+  
 # [changelog]
 ## Version 20230813
  - first version
