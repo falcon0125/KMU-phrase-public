@@ -1,6 +1,6 @@
 
 # [download]
- 最新版本 v20231004
+ 最新版本 v20231005
  [下載](https://github.com/falcon0125/KMU-phrase-public/archive/refs/heads/main.zip)
 # [install]
 1. 第一次使用要先安裝 msodbcsql.msi
@@ -29,6 +29,9 @@
   
   
 # [changelog]
+### version 20231005
+ - fix calling sqlodbc.exe problem
+
 ### version 20231004
  - fix auth importing issue
  - add icon tooltip showing current version
