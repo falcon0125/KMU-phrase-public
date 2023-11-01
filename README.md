@@ -25,10 +25,10 @@
 - crendentials.txt要跟autoload-gui-auth.exe放在一起
 - 目前只能跑在64bit系統
 
-  
-  
-  
 # [changelog]
+### version 20231030
+ - [to fix] can not generate credential file
+
 ### version 20231005
  - fix calling sqlodbc.exe problem
 
