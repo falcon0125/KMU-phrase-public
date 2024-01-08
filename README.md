@@ -1,6 +1,6 @@
 
 # [download]
- 最新版本 v20231005
+ 最新版本 v20240108
  [下載](https://github.com/falcon0125/KMU-phrase-public/archive/refs/heads/main.zip)
 
 # [第一次使用前]
@@ -14,18 +14,27 @@
 - 主程式為autoload-gui-auth.exe
     - **F12**: 認證報告 並自動叫下一片
     - **scrolllock** : 叫出設定 選擇按F12是否要叫舊片 讀失敗時是否使用日期來叫片等
-        - load image using date: 用accession叫片失敗時用日期叫
-        - health exam: 報告種類改成中文
-        - get old film: 是否帶入舊影像
-        - get old report: 是否帶入舊報告
+        - 當用序號叫不出影像時用日期叫
+        - 自動輸入檢查名稱
+        - 檢查名稱英翻中
+        - 自動讀取舊片影像
+        - 自動貼上舊片報告
     - **alt + printscreen**: load 舊片 
     - **ctrl + printscreen**: load 舊片+報告
     - **ctrl + D**: 上傳選定的series的lebal, annotation (本來ctrl+x的動作自動化), 會把window level回復到預設
+    - **alt + E**: 輸入 檢查名稱
 # [note]
 - crendentials.txt要跟autoload-gui-auth.exe放在一起
 - 目前只能跑在64bit系統
 
 # [changelog]
+### version 20240108
+ - 新增alt-E: 輸入 檢查名稱
+ - 新增 是否自動輸入檢查名稱
+ - 新增 是否翻譯檢查名稱 
+ - scrollock的選單改成中文
+ - 高醫RIS server IP改變
+
 ### version 20231217
  - crendentials.txt改至(https://kmu-phrase.puipui.rocks/)抓取
 
