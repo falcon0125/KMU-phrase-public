@@ -1,12 +1,12 @@
 
 # [download]
- 最新版本 v20240108
+ 最新版本 v20240520
  [下載](https://github.com/falcon0125/KMU-phrase-public/archive/refs/heads/main.zip)
 
 # [第一次使用前]
 1. 第一次使用要先安裝 msodbcsql.msi
     - sqlodbc.exe需要這個dependency 
-2. 到 (https://kmu-phrase.puipui.rocks/) 抓自己的crendentials.txt放到autoload-gui-auth.exe同樣的目錄裡
+2. 到 (https://github.com/falcon0125/KMU-phrase-credentials) 抓自己的crendentials.txt放到autoload-gui-auth.exe同樣的目錄裡
    使用時會檢查credentials.txt看使用者是否有註冊或是到期
    要是有顯示過期或是錯誤就再來網站抓新的crendentials.txt
    
@@ -28,6 +28,10 @@
 - 目前只能跑在64bit系統
 
 # [changelog]
+### version 20240520
+ - 加入岡山醫院
+ - log 紀錄
+
 ### version 20240108
  - 新增alt-E: 輸入 檢查名稱
  - 新增 是否自動輸入檢查名稱
