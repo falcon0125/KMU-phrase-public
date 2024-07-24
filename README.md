@@ -1,6 +1,5 @@
-
 # [download]
- 最新版本 v20240520
+ 最新版本 v20240724
  [下載](https://github.com/falcon0125/KMU-phrase-public/archive/refs/heads/main.zip)
 
 # [第一次使用前]
@@ -19,7 +18,7 @@
         - 檢查名稱英翻中
         - 自動讀取舊片影像
         - 自動貼上舊片報告
-    - **alt + printscreen**: load 舊片 
+    - **alt + printscreen**: load 舊片
     - **ctrl + printscreen**: load 舊片+報告
     - **ctrl + D**: 上傳選定的series的lebal, annotation (本來ctrl+x的動作自動化), 會把window level回復到預設
     - **alt + E**: 輸入 檢查名稱
@@ -28,9 +27,12 @@
 - 目前只能跑在64bit系統
 
 # [changelog]
+### version 20240724
+ - log 紀錄
+ 
 ### version 20240520
  - 加入岡山醫院
- - log 紀錄
+ - crendentials.txt改至(https://github.com/falcon0125/KMU-phrase-credentials)抓取
 
 ### version 20240108
  - 新增alt-E: 輸入 檢查名稱
@@ -40,7 +42,7 @@
  - 高醫RIS server IP改變
 
 ### version 20231217
- - crendentials.txt改至(https://kmu-phrase.puipui.rocks/)抓取
+ - crendentials.txt改至抓取
 
 ### version 20231030
  - [to fix] can not generate credential file
